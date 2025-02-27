@@ -1,0 +1,48 @@
+EXECUTOR: "LaTrExecutor"
+## Training param
+DEVICE: "cuda"
+
+SAVE: TRUE
+SAVE_PATH: "./models/"
+
+LR: 0.00005
+BETAS: 
+  - 0.9
+  - 0.98
+
+warmup_step: 5000
+
+NUM_EPOCHS: 5
+TRAIN_BATCH_SIZE: 8
+EVAL_BATCH_SIZE: 16
+PREDICT_BATCH_SIZE: 16
+
+max_predict_length: 128
+max_eval_length: 20
+
+get_predict_score: TRUE
+
+##DATA
+ocr_path: "./google_ocr"
+max_ocr: 140
+max_q_length: 40
+max_a_length: 128
+
+base_img_path: "./latr_img"
+
+qa_train_path: "./ReceiptVQA/ReceiptVQA_train.csv"
+qa_val_path: "./ReceiptVQA/ReceiptVQA_dev.csv"
+qa_predict_path:  "./ReceiptVQA/ReceiptVQA_dev.csv"
+
+## MODEL
+MODEL_CLASS: "LaTr"
+
+MODEL_MOD_CONFIG_CLASS: "LaTr_config" # model modified config class
+
+backbone_name: "VietAI/vit5-base"
+
+vit_model_name: "google/vit-base-patch16-224-in21k"
+
+max_2d_position_embeddings: 1024
+
+

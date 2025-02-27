@@ -1,0 +1,37 @@
+EXECUTOR: "ExExecutor"
+## Training param
+DEVICE: "cuda"
+
+SAVE: TRUE
+SAVE_PATH: "./models/"
+
+LR: 0.00005
+BETAS: 
+  - 0.9
+  - 0.98
+
+warmup_step: 5000
+
+NUM_EPOCHS: 10
+TRAIN_BATCH_SIZE: 8
+EVAL_BATCH_SIZE: 16
+PREDICT_BATCH_SIZE: 16
+
+get_predict_score: TRUE
+
+##DATA
+ocr_path: "./google_ocr"
+max_length: 180
+
+root_feature_path: 
+
+qa_train_path: "./ReceiptVQA/ReceiptVQA_train.csv"
+qa_val_path: "./ReceiptVQA/ReceiptVQA_dev.csv"
+qa_predict_path:  "./ReceiptVQA/ReceiptVQA_dev.csv"
+
+DATASET_CLASS: "TextOnlyExVQADataset"
+
+## MODEL
+isLiLT: FALSE
+
+model_name: "FacebookAI/xlm-roberta-base"
