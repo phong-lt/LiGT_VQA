@@ -4,7 +4,7 @@ This repository includes the ReceiptVQA dataset and the Pytorch implementation o
 
 ## Dataset
 
-The **ReceiptVQA** dataset encompasses **60,000+** Vietnamese question-answer pairs manually annotated from **9,000+** receipt images. The dataset is publicly available exclusively for research purposes.
+The **ReceiptVQA** dataset encompasses **60,000+** Vietnamese question-answer pairs manually annotated from **9,000+** receipt images. [ReceiptVQA](https://drive.google.com/drive/folders/1mWTKRWm0FDmw1I200ixIjFzg3ij7wcy-) is publicly available exclusively for research purposes.
 
 ## Method
 
