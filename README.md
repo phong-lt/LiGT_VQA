@@ -1,4 +1,4 @@
-# Layout-infused Generative Transformer for Visual Question Answering on Vietnamese Receipts
+# LiGT: Layout-infused Generative Transformer for Visual Question Answering on Vietnamese Receipts
 
 This repository includes the ReceiptVQA dataset and the Pytorch implementation of the LiGT method and other evaluated baselines. For more details, please check out our paper or [preprint](https://arxiv.org/abs/2502.19202).
 
@@ -57,6 +57,16 @@ If you use LiGT or the ReceiptVQA dataset, please cite the following paper:
 }
 ```
 (This is the preprint's BibTex. We will provide the official BibTex as soon as the paper is published in the journal.)
+
+# Authors
+
+- Thanh-Phong Le - [21520395@gm.uit.edu.vn](mailto:21520395@gm.uit.edu.vn)
+
+- Trung Le Chi Phan - [21522725@gm.uit.edu.vn](mailto:21522725@gm.uit.edu.vn)
+
+- Nghia Hieu Nguyen - [nghiangh@uit.edu.vn](mailto:nghiangh@uit.edu.vn)
+
+- Kiet Van Nguyen - [kietnv@uit.edu.vn](mailto:kietnv@uit.edu.vn)
 # Contact
 
 For any inquiries or feedback regarding the ReceiptVQA dataset and LiGT, please contact [21520395@gm.uit.edu.vn](mailto:21520395@gm.uit.edu.vn) (Thanh-Phong Le)
