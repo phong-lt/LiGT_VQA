@@ -58,6 +58,10 @@ If you use LiGT or the ReceiptVQA dataset, please cite the following paper:
 ```
 (This is the preprint's BibTex. We will provide the official BibTex as soon as the paper is published in the journal.)
 
+# License
+
+The ReceiptVQA dataset is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
 # Authors
 
 - Thanh-Phong Le - [21520395@gm.uit.edu.vn](mailto:21520395@gm.uit.edu.vn)
