@@ -1,6 +1,6 @@
 # LiGT: Layout-infused Generative Transformer for Visual Question Answering on Vietnamese Receipts
 
-This repository includes the ReceiptVQA dataset and the Pytorch implementation of the LiGT method and other evaluated baselines. For more details, please check out our paper or [preprint](https://arxiv.org/abs/2502.19202).
+This repository includes the ReceiptVQA dataset and the Pytorch implementation of the LiGT method and other evaluated baselines. For more details, please check out our [paper](https://link.springer.com/article/10.1007/s10032-025-00515-z) or [preprint](https://arxiv.org/abs/2502.19202).
 
 ## Dataset
 
@@ -46,17 +46,18 @@ python LiGT_VQA/run.py \
 If you use LiGT or the ReceiptVQA dataset, please cite the following paper:
 
 ```
-@misc{le2025ligtlayoutinfusedgenerativetransformer,
-      title={LiGT: Layout-infused Generative Transformer for Visual Question Answering on Vietnamese Receipts}, 
-      author={Thanh-Phong Le and Trung Le Chi Phan and Nghia Hieu Nguyen and Kiet Van Nguyen},
-      year={2025},
-      eprint={2502.19202},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2502.19202}, 
+@Article{Le2025,
+        author={Le, Thanh-Phong and Phan, Trung Le Chi and Nguyen, Nghia Hieu and Van Nguyen, Kiet},
+        title={LiGT: layout-infused generative transformer for visual question answering on Vietnamese receipts},
+        journal={International Journal on Document Analysis and Recognition (IJDAR)},
+        year={2025},
+        month={Apr},
+        day={05},
+        issn={1433-2825},
+        doi={10.1007/s10032-025-00515-z},
+        url={https://doi.org/10.1007/s10032-025-00515-z}
 }
 ```
-(This is the preprint's BibTex. We will provide the official BibTex as soon as the paper is published in the journal.)
 
 # License
 
